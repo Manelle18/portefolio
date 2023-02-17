@@ -1,4 +1,54 @@
-body {
+.photoacceuil {
     background-image: url('/image/fond.jpg');
-  
+    width: 9000px;
+    height: 900px;
 }
+
+.flexxx{
+    position: fixed;
+}
+
+#presentation{
+    line-height: 5.5;
+    background-color: rgb(4, 7, 5);
+}
+
+#creation {
+    background-color: rgb(4, 7, 5);
+}
+
+#competences{
+    background-color: rgb(3, 19, 7);
+}
+.triangle-code {
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-right : 77px solid transparent;
+    border-bottom : 150px solid;
+    border-left : 73px solid transparent;
+    text-align: center;
+    transform: rotate(35deg);
+    transition: transform .2s;
+   }
+
+.triangle-code:hover {
+    transform: rotate(0deg);
+}
+
+.list-triangle {
+    margin-right: 7rem;
+}
+
+#experiences{
+    background-color: rgb(4, 7, 5);
+}
+
+#contact { 
+  background-color: black;
+}
+
+footer{
+    background-color: black;
+}
+
