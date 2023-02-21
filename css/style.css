@@ -1,3 +1,5 @@
+
+/* ACCEUIL */
 .photoacceuil {
     background-image: url('/image/fond.jpg');
     width: 9000px;
@@ -7,19 +9,23 @@
 .flexxx{
     position: fixed;
 }
-
+/* PAGE PRESENTATION */
 #presentation{
     line-height: 5.5;
-    background-color: rgb(4, 7, 5);
+    background-color: rgb(0, 0, 0);
 }
-
+/* PAGE CREATION */
 #creation {
-    background-color: rgb(4, 7, 5);
+    background-color: rgb(0, 0, 0);
+}
+.card {
+    background-color: rgba(234, 241, 238, 0);
+}
+/* PAGE COMPETENCES */
+#competences{
+    background-color: rgb(0, 0, 0);
 }
 
-#competences{
-    background-color: rgb(3, 19, 7);
-}
 .triangle-code {
     display : inline-block;
     height : 0;
@@ -30,7 +36,9 @@
     text-align: center;
     transform: rotate(35deg);
     transition: transform .2s;
+    
    }
+
 
 .triangle-code:hover {
     transform: rotate(0deg);
@@ -40,15 +48,72 @@
     margin-right: 7rem;
 }
 
-#experiences{
-    background-color: rgb(4, 7, 5);
+.lignehtml{
+    position: absolute;
+    top: 102px;
+    left: -51px;
+    width: 104px;
+}
+.lignejs{
+    position: absolute;
+    top: 102px;
+    left: -51px;
+    width: 104px;
+}
+.lignecss{
+    position: absolute;
+    top: 102px;
+    left: -51px;
+    width: 104px;
+}
+.lignebootstrap{
+    position: absolute;
+    top: 102px;
+    left: -51px;
+    width: 104px;
+}
+.lignephp{
+    position: absolute;
+    top: 102px;
+    left: -51px;
+    width: 104px;
+}
+.lignewordpress{
+    position: absolute;
+    top: 102px;
+    left: -51px;
+    width: 104px;
+}
+.lignesymfony{
+    position: absolute;
+    top: 102px;
+    left: -51px;
+    width: 104px;
+
+}
+.lignemysql{
+    position: absolute;
+    top: 102px;
+    left: -51px;
+    width: 104px;
 }
 
+
+
+/* PAGE EXPERIENCES*/
+#experiences{
+    background-color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-size: 0%;
+   
+ 
+}
+/* PAGE CONTACT */
 #contact { 
   background-color: black;
 }
-
-footer{
+/* PAGE FOOTER */
+.footer {
     background-color: black;
 }
 
